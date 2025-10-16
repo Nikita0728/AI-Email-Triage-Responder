@@ -64,15 +64,15 @@ TAVILY_API_KEY=your_tavily_api_key
 MAX_SNIPPETS=3
 
 
-Request Body:
+## Request Body:
 
 {
   "email_text": "Hi team, before our Morocco tour launch, I wanted to ask: 1. What’s the best time to visit Chefchaouen? 2. How can we use Gemini with LangChain to generate itineraries? 3. Do we already have templates for desert tours?"
 }
 
-
+## Response
 {
-  "summary_points": [
+"summary_points": [
     "What’s the best time to visit Chefchaouen?",
     "How can we use Gemini with LangChain to generate itineraries?",
     "Do we have existing templates for desert tours?"
